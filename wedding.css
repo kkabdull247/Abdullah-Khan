@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    /* background-color: black !important; */
+}
+
+
+
+header {
+
+    position: fixed !important;
+    height: 10vh;
+    width: 100%;
+z-index: 110;}
+
+ .logo {
+    color: rgb(212, 111, 80) !important;
+    font-size: 2.5rem !important;
+    font-weight: lighter !important;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 0%;
+    margin-left: 1%;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif !important;
+    z-index: 7;
+}
+#navbarNav{
+    text-align: center;
+    color: black;
+    font-weight: bold !important;
+    padding-left: 8px;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgb(218, 111, 111);
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+}
+
+#marqueedata{
+    width: 72%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 4;
+    position: absolute;
+    top: 4em;
+    left:27%;
+    right: 1em;
+}
+
+
+
+span{
+    font-size: 1em !important;
+    color: black;
+}
+
+.navbar-toggler:focus{
+    outline: unset !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+a {
+    font-size: 17px;
+    color: rgb(0, 0, 0) !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    z-index: 1000;
+    /* -webkit-text-stroke-width:0.5px; 
+    -webkit-text-stroke-color: rgb(58, 51, 51); */
+
+}
+
+nav ul li {
+    display: inline;
+    /* padding: 10px; */
+    margin-right: 15px;
+    text-decoration: none;
+
+}
+
+li a:hover{
+    /* text-decoration: underline 2px rgb(212, 172, 52) !important; */
+    color: rgb(212, 111, 80)!important;
+
+}
+ /* try in media */
+
+
+/* .card-img-top{
+    height: 20em !important;
+} */
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-top: 7em;
+    height: fit-content;
+    
+}
+
+
+
+.card-img-top{
+    height: 27em !important;
+}
+
+.products .col.mb-4
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+/* @media (max-width:770px){
+    
+    #products{
+        padding-top: 5em;
+    }
+} */
+
+ @media (min-width:993px){
+    
+    #navbarNav{
+        background-color: none
+        ;
+        
+    
+    }
+
+
+
+} 
